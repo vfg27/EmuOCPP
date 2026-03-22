@@ -15,7 +15,7 @@ trustworthy testing and simulation tools.
 This implementation OCPP versions **2.0.1**, **2.0** and **1.6** and OCPP
 security profiles **1, 2, 3**.
 
-It has been tested on a Ubuntu 24.04.1 LTS running on a VMware Virtual Machine and Python 3.12.3.
+It has been tested on a Ubuntu Ubuntu 20.04 or Ubuntu 22.04 running on a VMware Virtual Machine and Python  3.8 — 3.10.
 
 > **Related Tool:** For packet inspection and compliance validation, see [CheckOCPP](https://github.com/vfg27/CheckOCPP) — a Wireshark dissector for OCPP traffic. Together, **EmuOCPP** and **CheckOCPP** provide a complete toolkit for simulating, analyzing, and validating OCPP communications.
 

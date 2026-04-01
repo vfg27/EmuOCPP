@@ -31,11 +31,11 @@ It has been tested on a Ubuntu Ubuntu 20.04 or Ubuntu 22.04 running on a VMware 
 To get started with the OCPP Simulator, follow these steps:
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
 ```
-git clone https://github.com/vfg27/ocpp-simulator
+git clone https://github.com/vfg27/EmuOCPP.git
 ```
 2. Install the virtual environment (it can also be used on a Windows system but you must execute the other install executable):
 ```
-cd ocpp-simulator/scripts/
+cd EmuOCPP/scripts/
 bash install.sh
 ```
 3. Replace the BootNotificationRequest schema of OCPP 2.0 libray with the one provided.

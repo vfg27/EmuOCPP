@@ -16,7 +16,7 @@ args = parser.parse_args()
 if args.server:
     ip = args.server
 else:
-    ip = 'fe80::e3a6:46e4:bff9:fb8e%ens33'
+    ip = 'fe80::e3a6:46e4:bff9:fb8e%ens160'
 
 cmd_list = ['list', 'exit', 'help', 'install', 'get', 'setProfile', 'setVariable', 'trigger', 'ping']
 

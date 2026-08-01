@@ -1,6 +1,6 @@
 clients:
   client0:
-    SecProfile: 2
+    SecProfile: '2'
     attempts: 2
     dns: DNS1
     name: CLI0
@@ -43,12 +43,6 @@ routers:
     name: R0
   router1:
     name: R1
-  routerT:
-    name: RT
-  routerTe:
-    name: RTe
-  routerTes:
-    name: RTes
 servers:
   server0:
     dns: DNS1

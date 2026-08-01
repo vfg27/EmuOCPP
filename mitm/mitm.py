@@ -75,7 +75,7 @@ def print_dict(d, indent = 0, msg = None):
             if key == 'certificateChain' or key == 'cert':
                 print("====================================================\n")
                 print("====================================================\n")
-                print("                  DROPING MESSAGE                   \n")
+                print("                  DROPPING MESSAGE                  \n")
                 print("====================================================\n")
                 print("====================================================\n")
                 msg.drop()

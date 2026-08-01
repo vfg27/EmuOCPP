@@ -1,0 +1,10 @@
+backports/__init__.py,sha256=1Mf6P1hIdW75vC992JfI0YyknVYpv1dH3_DZzUShnS0,155
+backports/__pycache__/__init__.cpython-311.pyc,,
+backports/ssl_match_hostname/__init__.py,sha256=avkHqU_CdBqDuWiuuojvZ8TkpdnyBFqJlJBfSfwRY_A,7366
+backports/ssl_match_hostname/__pycache__/__init__.cpython-311.pyc,,
+backports_ssl_match_hostname-3.7.0.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+backports_ssl_match_hostname-3.7.0.1.dist-info/LICENSE.txt,sha256=v8inWkua7CJKp5c8DJ18wBNL3L-O79AIk2tYVU1m6X4,2435
+backports_ssl_match_hostname-3.7.0.1.dist-info/METADATA,sha256=-P-GmbEhCkXrusiuKmx9rgGUCporLx39dfQkh83qf_0,3761
+backports_ssl_match_hostname-3.7.0.1.dist-info/RECORD,,
+backports_ssl_match_hostname-3.7.0.1.dist-info/WHEEL,sha256=SrDKpSbFN1G94qcmBqS9nyHcDMp9cUS9OC06hC0G3G0,109
+backports_ssl_match_hostname-3.7.0.1.dist-info/top_level.txt,sha256=cGjaLMOoBR1FK0ApojtzWVmViTtJ7JGIK_HwXiEsvtU,10

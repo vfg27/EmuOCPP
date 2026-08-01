@@ -178,7 +178,7 @@ def run_topology(topology_module_name):
                     while True:
                         try:
                             config['security']['BasicAuthPassword'] = auth_key
-                            print(f'AuthKey: {config['security']['BasicAuthPassword']}')
+                            print(f"AuthKey: {config['security']['BasicAuthPassword']}")
                         except Exception as e:
                             print(e)
                             time.sleep(2)

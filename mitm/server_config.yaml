@@ -1,0 +1,29 @@
+accepted_chargers:
+- model: E2507
+  serial_number_regex: ^E2507-[0-9]{4}-[0-9]{4}$
+  vendor_name: EmuOCPPCharge
+- model: E2508
+  serial_number_regex: ^E2508-[0-9]{4}-[0-9]{4}$
+  vendor_name: EmuOCPPCharge
+accepted_tokens:
+- id_token: '11223344'
+  type: ISO14443
+- id_token: '11223344556677'
+  type: ISO14443
+- id_token: '1122334455667788'
+  type: ISO15693
+dns: null
+ip: fc00:0:1::1
+port0: 9000
+port1: 9001
+port2: 9002
+port3: 9003
+port4: 9004
+port5: 9005
+port6: 9006
+port7: 9007
+security:
+  allow_multiple_serial_numbers: 2
+  heartbeat_interval: 10
+  max_connected_clients: 100000
+url: null

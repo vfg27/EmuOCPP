@@ -1,0 +1,73 @@
+Metadata-Version: 2.2
+Name: netlib
+Version: 0.14.0
+Summary: A collection of network utilities used by pathod and mitmproxy.
+Home-page: http://github.com/mitmproxy/netlib
+Author: Aldo Cortesi
+Author-email: aldo@corte.si
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Traffic Generation
+License-File: LICENSE
+Requires-Dist: cryptography>=1.0
+Requires-Dist: hpack>=1.0.1
+Requires-Dist: certifi>=2015.9.6.2
+Requires-Dist: pyOpenSSL>=0.15.1
+Requires-Dist: backports.ssl_match_hostname>=3.4.0.2
+Requires-Dist: six>=1.9.0
+Requires-Dist: passlib>=1.6.2
+Requires-Dist: pyasn1>=0.1.7
+Provides-Extra: dev
+Requires-Dist: mock>=1.0.1; extra == "dev"
+Requires-Dist: pytest>=2.8.0; extra == "dev"
+Requires-Dist: pytest-xdist>=1.13.1; extra == "dev"
+Requires-Dist: pytest-cov>=2.1.0; extra == "dev"
+Requires-Dist: coveralls>=0.4.1; extra == "dev"
+Requires-Dist: autopep8>=1.0.3; extra == "dev"
+Requires-Dist: autoflake>=0.6.6; extra == "dev"
+Requires-Dist: wheel>=0.24.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: home-page
+Dynamic: license
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary
+
+[![Build Status](https://img.shields.io/travis/mitmproxy/netlib/master.svg)](https://travis-ci.org/mitmproxy/netlib)
+[![Code Health](https://landscape.io/github/mitmproxy/netlib/master/landscape.svg?style=flat)](https://landscape.io/github/mitmproxy/netlib/master)
+[![Coverage Status](https://img.shields.io/coveralls/mitmproxy/netlib/master.svg)](https://coveralls.io/r/mitmproxy/netlib)
+[![Downloads](https://img.shields.io/pypi/dm/netlib.svg?color=orange)](https://pypi.python.org/pypi/netlib)
+[![Latest Version](https://img.shields.io/pypi/v/netlib.svg)](https://pypi.python.org/pypi/netlib)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/netlib.svg)](https://pypi.python.org/pypi/netlib)
+
+Netlib is a collection of network utility classes, used by the pathod and
+mitmproxy projects. It differs from other projects in some fundamental
+respects, because both pathod and mitmproxy often need to violate standards.
+This means that protocols are implemented as small, well-contained and flexible
+functions, and are designed to allow misbehaviour when needed.
+
+
+Requirements
+------------
+
+* [Python](http://www.python.org) 2.7.x or a compatible version of pypy.
+* Third-party packages listed in [setup.py](https://github.com/mitmproxy/netlib/blob/master/setup.py)
+
+Hacking
+-------
+
+If you'd like to work on netlib, check out the instructions in mitmproxy's [README](https://github.com/mitmproxy/mitmproxy#hacking).

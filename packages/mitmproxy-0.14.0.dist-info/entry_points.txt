@@ -1,0 +1,4 @@
+[console_scripts]
+mitmdump = libmproxy.main:mitmdump
+mitmproxy = libmproxy.main:mitmproxy
+mitmweb = libmproxy.main:mitmweb

@@ -1,0 +1,47 @@
+HeartbeatInterval: 10
+comm:
+  HeartbeatInterval: 10
+  MessageTimeout: 30
+  NetworkConfigurationPriority:
+  - 0
+  - 1
+  - 2
+  NetworkProfileConnectionAttempts: 2
+  OfflineThreshold: 30
+ip: fc00:0:1::1
+model: E2507
+port0: 9000
+port1: 9001
+port2: 9002
+port3: 9003
+port4: 9004
+port5: 9005
+port6: 9006
+port7: 9007
+profiles:
+  0:
+    SP: 1
+    ip: fc00:0:1::1
+    message_timeout: 30
+    ocpp_version: OCPP201
+  1:
+    SP: 2
+    ip: fc00:0:1::1
+    message_timeout: 30
+    ocpp_version: OCPP201
+  2:
+    SP: 3
+    ip: fc00:0:1::1
+    message_timeout: 30
+    ocpp_version: OCPP201
+security:
+  AdditionalRootCertificateCheck: false
+  BasicAuthPassword: HPEufO4u3IMl1G
+  CertSigningRepeatTimes: 2
+  CertSigningWaitMinimum: 30
+  Identity: E2507-8420-1274
+  OrganizationName: EmuOCPP
+  SecurityProfile: 1
+url: null
+vendor_name: EmuOCPPCharge
+version: v2.0.1

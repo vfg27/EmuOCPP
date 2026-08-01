@@ -236,7 +236,7 @@ def load_config() -> bool:
 
         return True
 
-def load_address(interface:str = 'ens33'):
+def load_address(interface:str):
     try:
         addrs = netifaces.ifaddresses(interface)
         return addrs[netifaces.AF_INET6][0]['addr']
@@ -1012,7 +1012,7 @@ def load_certificate(cert_path):
     # Read the certificate from the file
     with open(cert_path, 'r') as cert_file:
         cert_data = cert_file.read()
-    # Ensure the certificate length is within the allowed bounds
+    # Ensure the certificate length is within the allowed bounds 
     if len(cert_data) > 5500:
         raise ValueError("Certificate exceeds maximum allowed length (5500 characters).")
     return cert_data

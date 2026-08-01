@@ -8,7 +8,7 @@ comm:
   - 2
   NetworkProfileConnectionAttempts: 2
   OfflineThreshold: 30
-ip: fe80::e3a6:46e4:bff9:fb8e%ens33
+ip: fe80::20c:29ff:fe0a:aa2b%ens160
 model: E2507
 port0: 9000
 port1: 9001
@@ -21,17 +21,17 @@ port7: 9007
 profiles:
   0:
     SP: 1
-    ip: fe80::e3a6:46e4:bff9:fb8e%ens33
+    ip: fe80::20c:29ff:fe0a:aa2b%ens160
     message_timeout: 30
     ocpp_version: OCPP201
   1:
     SP: 2
-    ip: fe80::e3a6:46e4:bff9:fb8e%ens33
+    ip: fe80::20c:29ff:fe0a:aa2b%ens160
     message_timeout: 30
     ocpp_version: OCPP201
   2:
     SP: 3
-    ip: fe80::e3a6:46e4:bff9:fb8e%ens33
+    ip: fe80::20c:29ff:fe0a:aa2b%ens160
     message_timeout: 30
     ocpp_version: OCPP201
 security:
